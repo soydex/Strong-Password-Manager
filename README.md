@@ -16,6 +16,9 @@
 5. Secure credentials will be displayed and a CSV file will be created.
 
 # 🌐 Browser compatibility
+
+link in chrome : chrome://settings/passwords
+
 [Chrome browser screenshot](https://postimg.cc/phyPDH9m)
 
 ### ❓ Need help ?
