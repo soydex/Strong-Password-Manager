@@ -1,5 +1,11 @@
 # Strong Password Manager
 
+# Requirements
+Better Terminal For Colorama : https://www.microsoft.com/store/productId/9N0DX20HK701
+1. Installer
+2. Paramètres
+3. Application Terminal par défaut : Terminal Windows
+
 # 🇫🇷 Instructions
 1. Téléchargez le fichier exécutable.
 2. Exécutez le fichier exécutable.
