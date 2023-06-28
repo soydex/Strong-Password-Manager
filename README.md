@@ -29,4 +29,4 @@ link in chrome : chrome://settings/passwords
 
 ### ❓ Need help ?
 
-Contact soydex’#0890 for support.
+Contact @soydex for support in discord.
