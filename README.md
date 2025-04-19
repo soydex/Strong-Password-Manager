@@ -26,7 +26,7 @@ To manage passwords in Chrome, navigate to:
 chrome://settings/passwords
 ```
 
-![Chrome browser screenshot](https://postimg.cc/phyPDH9m)
+[Chrome browser screenshot](https://postimg.cc/phyPDH9m)
 
 ## ❓ Need Help?
 Contact **@soydex** for support on Discord.
