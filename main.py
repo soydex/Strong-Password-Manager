@@ -26,14 +26,21 @@ def generer_password(length, charset):
     return "".join(random.sample(charset, length))
 
 def sauvegarder_donnees(nom_fichier, nouvelles_donnees):
+    if not os.path.exists(nom_fichier):
+        with open(nom_fichier, mode="w", newline="") as fichier:
+            writer = csv.writer(fichier)
+            writer.writerow(["Site", "Identifiant", "Mot de passe"])  # En-têtes du fichier CSV
+
     with open(nom_fichier, mode="r") as fichier:
         reader = csv.reader(fichier)
         entrees_existantes = {ligne[0]: ligne for ligne in reader if len(ligne) > 0}
+
     with open(nom_fichier, mode="w", newline="") as fichier:
         writer = csv.writer(fichier)
         for ligne in nouvelles_donnees:
             entrees_existantes[ligne[0]] = ligne
         writer.writerows(entrees_existantes.values())
+
     print(Fore.RESET + '  ')
     print("Les nouvelles données ont été ajoutées et les entrées existantes ont été mises à jour dans le fichier CSV.")
     print(Fore.RESET + '  ')
